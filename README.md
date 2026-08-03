@@ -1,58 +1,66 @@
-# umai-customer-demand-excel-dashboard
+# Umai Frozen Yogurt Customer Demand Dashboard
 
 ## Project Overview
 
-This project analyzes frozen yogurt sales, customer demand, and regional performance using SQL, Power BI, and Excel.
+This project analyzes customer traffic across 20 Umai Frozen Yogurt franchise locations in California using more than 21,000 daily sales records collected over three years.
 
-The project combines sales and customer data in an interactive dashboard and examines whether temperature can help explain changes in customer traffic.
+The Excel dashboard was created to help a sales executive compare average daily customer traffic and examine whether location, date, rainfall, and temperature were associated with changes in customer demand.
 
 ## Business Questions
 
-- How do revenue and order patterns vary by region?
-- How does sales performance differ across sales channels?
-- Can temperature help explain changes in customer demand?
-- How could the findings support sales and operational planning?
+- How did average daily customer traffic change over the three-year period?
+- Did customer traffic vary across franchise locations?
+- Was customer traffic lower during periods of intense rainfall?
+- Was temperature meaningfully associated with customer volume?
+- How could these patterns support operational planning?
 
 ## Tools Used
 
-- SQL
-- Power BI
-- Excel
-- Linear regression
+- Microsoft Excel
+- Power Pivot
+- Excel Data Model
+- PivotTables and PivotCharts
+- SQL Server
+- Regression Analysis
+- Slicers and Filters
 
-## Data Preparation
+## Data Preparation and Modeling
 
-- Queried and prepared sales and customer data using SQL
-- Combined relevant tables using joins
-- Grouped and summarized data for reporting
-- Connected the prepared dataset to Power BI
-- Reviewed the data for use in dashboard visualizations
+- Imported store and daily sales data from SQL Server into the Excel Data Model
+- Created a relationship between the Sales and Stores tables
+- Built a calendar hierarchy using year, month, and day-of-week fields
+- Summarized more than 21,000 records across 20 franchise locations
+- Connected multiple PivotTables and charts to a shared city slicer
 
-## Dashboard Analysis
+## Dashboard Components
 
-The Power BI dashboard was designed to help users:
+The Sales Report includes:
 
-- Compare revenue across regions
-- Examine order patterns by sales channel
-- Review sales and customer trends
-- Explore forecasted business performance
+- A line chart comparing average daily customers over time
+- A rainfall analysis comparing customer traffic under different weather conditions
+- A scatter chart examining temperature and average customer volume
+- A city slicer allowing users to filter all report visuals by franchise location
 
-## Weather and Customer Demand Analysis
+## Regression Analysis
 
-I used linear regression in Excel to evaluate the relationship between temperature and customer count.
+Regression analysis was used to evaluate the relationship between temperature and customer traffic.
 
-The analysis produced an R-squared value of 0.73, indicating that temperature explained approximately 73% of the variation in customer count within the dataset. The relationship was statistically significant.
+The model produced an R-squared value of 0.73, indicating that temperature explained approximately 73% of the variation in customer count within the dataset. The relationship was statistically significant.
 
-In business terms, the result suggests that weather may be a useful factor when anticipating customer demand and planning staffing, inventory, or promotional activities.
+In business terms, temperature appeared to be a meaningful predictor of customer demand and could be considered when planning staffing, inventory, and promotional activities.
 
-## Key Takeaways
+## Business Value
 
-- Sales performance could be compared across regions and sales channels through one interactive report.
-- Temperature showed a meaningful relationship with customer traffic.
-- Combining dashboard reporting with statistical analysis provided both visual and quantitative support for business planning.
+The dashboard brings location, calendar, and weather-related customer patterns into one interactive Excel report.
 
-## Dashboard File
+It allows managers to compare franchise performance, explore customer traffic under different conditions, and identify factors that could support demand planning and operational decisions.
 
-The complete interactive Power BI report is available in:
+## Project File
 
-`Umai_Sales_Demand_Dashboard.pbix`
+The complete Excel dashboard and analysis are available in:
+
+`Umai_Customer_Demand_Dashboard.xlsx`
+
+## Dashboard Preview
+
+Dashboard screenshots will be added when the workbook is available for preview.
