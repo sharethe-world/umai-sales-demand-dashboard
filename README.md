@@ -60,7 +60,3 @@ It allows managers to compare franchise performance, explore customer traffic un
 The complete Excel dashboard and analysis are available in:
 
 `Umai_Customer_Demand_Dashboard.xlsx`
-
-## Dashboard Preview
-
-Dashboard screenshots will be added when the workbook is available for preview.
