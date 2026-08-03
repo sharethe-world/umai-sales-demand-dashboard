@@ -1,4 +1,4 @@
-# Umai-sales-demand-dashboard
+# umai-customer-demand-excel-dashboard
 
 ## Project Overview
 
